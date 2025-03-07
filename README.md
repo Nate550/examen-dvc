@@ -12,7 +12,7 @@ Dans ce dépôt vous trouverez l'architecture proposé pour mettre en place la s
 │   ├── src
 │   │   ├── data      
 │   │   └── models    
-│   └── README.md.py       
+│   └── README.md      
 ```
 N'hésitez pas à rajouter les dossiers ou les fichiers qui vous semblent pertinents.
 
