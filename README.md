@@ -3,14 +3,15 @@ Dans ce dépôt vous trouverez l'architecture proposé pour mettre en place la s
 
 ```bash       
 ├── examen_dvc          
-│   ├── data       
-│   │   ├── processed      
+│   ├── data
+|   |   ├── normalized 
+│   │   ├── processed
 │   │   └── raw       
 │   ├── metrics       
-│   ├── models      
+│   ├── models          
+│   ├── src
 │   │   ├── data      
-│   │   └── models        
-│   ├── src       
+│   │   └── models    
 │   └── README.md.py       
 ```
 N'hésitez pas à rajouter les dossiers ou les fichiers qui vous semblent pertinents.
