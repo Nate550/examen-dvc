@@ -1,1 +1,22 @@
+# Ignore DVC cache
+/.dvc/cache/
+/.dvc/tmp/
+
+# Ignore model artifacts
+/models/*.pkl
+
+# Ignore processed data (DVC will track them)
+!/data/raw/
+data/processed/
+
+# Ignore metrics (DVC will track them)
+metrics/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+.env/
 /env

@@ -4,7 +4,7 @@ import json
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load data
-X_test = pd.read_csv("data/normalized/X_test_scaled.csv")
+X_test = pd.read_csv("data/processed/X_test_scaled.csv")
 y_test = pd.read_csv("data/processed/y_test.csv").values.ravel()
 
 # Load trained model

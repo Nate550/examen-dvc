@@ -1,3 +1,17 @@
 # Add patterns of files dvc should ignore, which could improve
 # the performance. Learn more at
 # https://dvc.org/doc/user-guide/dvcignore
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Git metadata
+.git/
+.gitignore
+
+# Ignore virtual environments
+env/
+.env/
+

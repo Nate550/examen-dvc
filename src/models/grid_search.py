@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
 
 # Load datasets
-X_train = pd.read_csv("data/normalized/X_train_scaled.csv")
+X_train = pd.read_csv("data/processed/X_train_scaled.csv")
 y_train = pd.read_csv("data/processed/y_train.csv").values.ravel()
 
 # Define model and parameters
