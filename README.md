@@ -11,7 +11,8 @@ Dans ce dépôt vous trouverez l'architecture proposé pour mettre en place la s
 │   ├── models          
 │   ├── src
 │   │   ├── data      
-│   │   └── models    
+│   │   └── models  
+|   ├── params.yaml   
 │   └── README.md      
 ```
 N'hésitez pas à rajouter les dossiers ou les fichiers qui vous semblent pertinents.
