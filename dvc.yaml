@@ -1,8 +1,8 @@
 stages:
   split:
-    cmd: python3 src/data/split_data.py
+    cmd: python3 src/data/split_data.py --force
     deps:
-    - data/raw
+    - data/raw/raw.csv
     - src/data/split_data.py
     outs:
     - data/processed/X_test.csv
@@ -43,5 +43,5 @@ stages:
     - models/trained_model.pkl
     - src/models/evaluate_model.py
     outs:
-    - data/processed/predictions.csv
+    - data/processed/prediction.csv
     - metrics/scores.json
