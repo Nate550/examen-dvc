@@ -1,7 +1,7 @@
 schema: '2.0'
 stages:
   split:
-    cmd: python3 src/data/split_data.py --force
+    cmd: python3 src/data/split_data.py
     deps:
     - path: data/raw/raw.csv
       hash: md5

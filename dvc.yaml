@@ -1,6 +1,6 @@
 stages:
   split:
-    cmd: python3 src/data/split_data.py --force
+    cmd: python3 src/data/split_data.py
     deps:
     - data/raw/raw.csv
     - src/data/split_data.py
@@ -44,6 +44,4 @@ stages:
     - src/models/evaluate_model.py
     outs:
     - data/processed/predictions.csv
-    metrics:
-    - metrics/scores.json:
-        cache: false
+    - metrics/scores.json
