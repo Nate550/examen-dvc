@@ -7,10 +7,14 @@ stages:
       hash: md5
       md5: 617b56af2992376d5c3e91ad80823898
       size: 333757
+    - path: params.yaml
+      hash: md5
+      md5: 29bddd5275fb49355302856d9de5c43d
+      size: 171
     - path: src/data/split_data.py
       hash: md5
-      md5: de9244dec1760c341ad78fab49cd4720
-      size: 736
+      md5: e66c483fbb9458e03ff4d45da15faa7f
+      size: 1053
     outs:
     - path: data/processed/X_test.csv
       hash: md5
@@ -63,10 +67,14 @@ stages:
       hash: md5
       md5: a9cd9d91da89f732843d72548f64ded3
       size: 25951
+    - path: params.yaml
+      hash: md5
+      md5: 29bddd5275fb49355302856d9de5c43d
+      size: 171
     - path: src/models/grid_search.py
       hash: md5
-      md5: c5f063756ab81e9c25251ef98f2515cb
-      size: 662
+      md5: b4fd4f08fa1aa49ef5b642831e3de080
+      size: 763
     outs:
     - path: models/best_params.pkl
       hash: md5
@@ -89,8 +97,8 @@ stages:
       size: 69
     - path: src/models/train_model.py
       hash: md5
-      md5: af0f97bf0adfaecdcdc3349b3be36aa6
-      size: 473
+      md5: af0a616bcde656c967eabac905fe9fab
+      size: 522
     outs:
     - path: models/trained_model.pkl
       hash: md5
